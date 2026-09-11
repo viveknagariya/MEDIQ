@@ -93,7 +93,7 @@ async function importDoctors(fileName) {
         password: hashedPassword,
         visiblePassword: doc.password,
         shift: doc.shift || "Day",
-        status: "Pending",
+        status: "Active",
 
         image: "uploads/" + profileName,
         degreeCertificate: "uploads/" + degreeName,
